@@ -1,0 +1,19 @@
+// 初始化
+*, *::after, *::before {
+  padding: 0;
+  margin: 0;
+  // 通过继承的方式，将所有的box-sizing设置为下方设置的 border-box
+  box-sizing: inherit;
+}
+
+// rem
+html {
+  // 默认字体为16px，我们这里将rem设置为 16px * 62.5% = 10px
+  font-size: 62.5%;
+}
+
+// base setting
+body {
+  box-sizing: border-box;
+  overflow: hidden;
+}

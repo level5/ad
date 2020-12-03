@@ -1,0 +1,24 @@
+.heading {
+  font-size: 4rem;
+  font-weight: 500;
+
+  &-white {
+    color: $color-white;
+  }
+}
+
+.heading-primary {
+  font-size: 5rem;
+  font-weight: 500;
+
+}
+
+.sub-desc {
+  font-style: italic;
+  font-size: 1.6rem;
+
+  &-white {
+    color: $color-white;
+  }
+}
+
